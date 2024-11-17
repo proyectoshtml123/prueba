@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion{
+    display: flex;
+}
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+div{  
+    display: block;
+
+}
+h1{
+    margin: 0;
+    font-size: 5rem; /* Tamaño del texto */
+    text-transform: uppercase; /* Convierte texto a mayúsculas (opcional) */
+    font-weight: bold; /* Negrita (opcional) */
+    text-align: center;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+a{
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    text-decoration: none;
+    color: white;
+}
+header{
+    background: url(../img/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+.horizontal-text {
+    display: flex;
+    gap: 380px; /* Espacio entre palabras */
+    font-size: 2rem; /* Tamaño del texto */
+    text-transform: uppercase; /* Convierte texto a mayúsculas (opcional) */
+    font-weight: bold; /* Negrita (opcional) */
+    text-align: center;
+    letter-spacing: 5px;
+}
+.numero {
+    color: black; /* Color del texto (blanco) */
+    background-color: beige; /* Fondo celeste */
+    border: 2px solid bisque; /* Borde celeste */
+    padding: 5px 10px; /* Espacio interno para que no quede pegado al borde */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+    display: inline-block;
+    margin: 5px; /* Espacio entre números */
+    font-weight: bold; /* Negrita (opcional) */
+    text-align: center;
+}
